@@ -1,0 +1,45 @@
+vs code
+install extensions gradle or java and extension pack for java
+create a folder named gradle in desktop 
+type the code
+got to file in vs code
+new file
+new java project
+select gradle
+select folder u created
+enter
+groovy
+enter
+run he code
+javac App.java
+java App.java
+
+install java jdk
+copy that path and set new env variable
+set path
+%java%/bin
+
+got to google
+search gradle or windows
+installing manually
+extract and store it in program files
+copy the path(not bin) and set new environment variable
+select on path and add new
+%gradle%/bin
+go to cmd
+gradle --version
+mkdir gr
+cd gr
+gradle init
+choose application,groovy,enter,grad,single application,project,groovy,yes
+open /gr/app/build.gradle
+at the end ass
+task hello{
+	doLast{
+		println"hello gradle"
+	}
+}
+close 
+open cmd
+gradle task
+gradle hello
