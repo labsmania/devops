@@ -1,0 +1,15 @@
+pip install selenium 
+nano app.py
+python app.py
+
+nano test.py
+
+chrome
+search chrome driver download for windows
+chrome version 115+
+stable 
+chrome driver win 64
+copy the link and download the folder
+extract it and save in c drive
+
+run both test and t1
