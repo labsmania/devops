@@ -1,0 +1,28 @@
+method 1 windows
+go to snyk.io
+login using GitHub
+grant all permissions
+add project
+choose repo
+add a repo
+wait for import
+
+method 2 kali/windows
+intall node js
+windows installer msi
+verify by typing node in cmd
+control c 2 times
+npm install -g snyk
+snyk auth
+grant all acess
+seach pygoat copy and clone the repo
+cd pygoat
+snyk test
+snyk monitor
+
+method 3
+vs code
+open pygoat repo
+install extension snyk
+click on dog symbol
+grant acess

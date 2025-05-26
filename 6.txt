@@ -1,0 +1,22 @@
+windows
+seahc for docker desktop
+download amd 64 version
+install docker by giving accept,student,continue,next
+wsl --install
+turn on windows subsystem for Linux
+
+go to welcome-to-docker GitHub
+clone the repo
+cd welcome-to
+docker build -t welcome-to .
+docker run -p 5000:5000 {welcome}
+
+
+manually
+mkdir man
+cd man
+write req.txt and app.py and Dockerfile
+go to cmd
+ren Dockerfile.txt Dockerfile
+docker build -t man .
+docker run -p 5000:5000 man

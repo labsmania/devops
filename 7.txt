@@ -1,0 +1,8 @@
+search kubernetics download
+install on windows 
+follow the steps given
+search minikube
+downloads
+follow the steps
+if the command is not running then run it in powershell 
+if it is not running in powershell aswell then run it in powershell using administrator kubectl get po -A

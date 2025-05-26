@@ -1,0 +1,36 @@
+search Jenkins
+download
+lst windows
+
+setup
+next
+next
+run service as localsystem
+next
+8081
+test port
+next
+next
+set path to jdk 21
+disable start service
+next
+install
+
+set env-> add new->c/program files->eclipse adoptium->jdk 21->bin->copy the path and paste it
+
+start
+services
+Jenkins start
+chrome localhost:8081
+
+open err file in Jenkins for password
+install suggested plugins
+
+username:admin user
+pass:123@pass
+save and finish
+start using jnekins
+new item 
+project1: freestyle project->ok
+build:execute windows Batch command
+save
