@@ -1,0 +1,20 @@
+go to cmd
+  git --version
+  mk prgm
+  cd prgm
+  git config --global user name "name"
+  git config --global user email "email"
+  git init
+  git status
+  git add filename
+  git commit -m "msg"
+  git branch branchname
+  git checkout branchname
+  git fetch
+  git merge branchname
+  git log
+  git branch -d branchname
+  git log --online
+  git checkout <hash>
+  git clode <repo>
+  
