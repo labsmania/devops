@@ -1,0 +1,6 @@
+sudo apt update
+sudo apt install ansible
+ansible --version
+nano host.ini
+nano setup.yml
+sudo ansible-playbook -i host.ini setup.yml

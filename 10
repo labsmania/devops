@@ -1,0 +1,19 @@
+sudo apt update
+sudo apt install openjdk-11-jre-headless -y
+sudo apt install maven
+mkdir maven
+cd maven
+sudo apt install git
+https://github.com/Krishpluto/BoardgameListingWebApp
+git clone
+cd Board
+mvn clean
+mvn vaidate 
+mvn test
+get any error then sudo update-alternatives --config java
+mvn compile
+mvn package
+cd target
+java -jar database_service_project-0.0.1.jar
+
+localhost:8080
