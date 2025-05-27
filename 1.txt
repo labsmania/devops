@@ -17,4 +17,6 @@ go to cmd
   git log --online
   git checkout <hash>
   git clode <repo>
-  
+
+
+http://bit.ly/cscydevops
