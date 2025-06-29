@@ -1,4 +1,4 @@
-#!/bin?bash
+#!/bin/bash
 echo "setting up environment"
 python3 -m venv venv
 source ./venv/bin/activate
