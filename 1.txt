@@ -16,7 +16,7 @@ go to cmd
   git branch -d branchname
   git log --online
   git checkout <hash>
-  git clode <repo>
+  git clone <repo>
 
 
 http://bit.ly/cscydevops
